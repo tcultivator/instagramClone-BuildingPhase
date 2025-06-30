@@ -48,10 +48,17 @@ body {
     color: rgb(97, 97, 97);
 
 }
-#stories{
+#stories {
     display: flex;
     gap: 20px;
     overflow-x: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+#stories::-webkit-scrollbar {
+    display: none;
+
 }
 #addStories {
     display: flex;
