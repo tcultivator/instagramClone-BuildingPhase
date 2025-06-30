@@ -1,0 +1,149 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFFFFF;
+}
+
+#header {
+    background-color: white;
+    top: 0;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    
+
+}
+
+#header h1 {
+    font-size: 40px;
+    background: -webkit-linear-gradient(#cf1ca2, #dfdb19);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+#header button {
+    background-color: transparent;
+    border: none;
+    color: rgb(122, 122, 122);
+    font-size: 30px;
+
+}
+
+#storyBody {
+    background-color: white;
+    position: fixed;
+    top: 85px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 20px;
+    border-bottom: 1px solid rgba(197, 197, 197, 0.788);
+    border-top: 1px solid rgba(197, 197, 197, 0.788);
+    color: rgb(97, 97, 97);
+
+}
+#stories{
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+}
+#addStories {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 12px;
+    text-align: center;
+}
+
+#storyImage {
+    border: 1px solid rgb(71, 71, 71);
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 0px 5px;
+
+}
+
+
+#storyImage:hover:before {
+    content: "+";
+
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin: auto;
+    display: flex;
+    font-size: 40px;
+    color: rgba(0, 0, 255, 0.322);
+}
+
+
+
+
+
+
+
+
+#footerNav {
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 15px 25px 20px 25px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(197, 197, 197, 0.788);
+    gap: 35px;
+}
+
+#footerNav button {
+    background-color: transparent;
+    border: none;
+    font-size: 23px;
+    color: rgb(121, 121, 121);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
