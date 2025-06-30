@@ -106,13 +106,11 @@ body {
 #userPost{
     position: absolute;
     width: 100%;
-    height: 100%;
-    
+    height: calc(100% - 260px);
     box-sizing: border-box;
     background-color: rgb(255, 255, 255);
     top: 196px;
     z-index: -1;
-   
     gap: 5px;
     overflow: auto;
       scrollbar-width: none;
